@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow">
     <meta name="description"
         content="Portafolio de @jfelipeq14 💻 6 meses de experiencia como Desarrollador Web Fullstack. Profesor y divulgador de programación.">
-    <meta name="theme-color" content="#09f">
+    <meta name="theme-color" content="#0077b5">
 
 
     <!-- open graph -->
@@ -19,122 +19,109 @@
     <link rel="canonical" href="https://jfelipeq14.web.app">
 
 
-    <title>Portafolio jfelipeq14</title>
+    <title>Mi Portafolio</title>
 
-    <link rel="icon" href="/images/yo.jpg" type="image/jpg">
+    <link rel="icon" href="./assets/img/personal/foto.jpg" type="image/jpg">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./style/style.grid.css">
 </head>
 
 <body>
-    <header>
-        <h1>Portafolio de @jfelipeq14 💻</h1>
-        <nav>
-            <a href="#experiencia">Experiencia</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#preguntas">Proyectos</a>
-            <a href="https://github.com/JuaneFe14" target="_blank" rel="noreferrer">GitHub</a>
-        </nav>
-    </header>
-    <main>
-        <h2 id="experiencia">Experiencia</h2>
-        <p>6 meses de experiencia como <strong> Desarrollador Web Fullstack.
-            </strong> Profesor y divulgador de programación.</p>
-        <ol>
-            <li>Ekisa SAS</li>
-            <li>Alegria Pets</li>
-        </ol>
-
-        <a download href="/images/yo.jpg">
-            <img src="/images/yo.jpg" title="Foto de jfelipeq14"
-                alt="Una fotografia de Juan Felipe Quintero de tipo documento">
-        </a>
-
-        <aside class="container">
-            <header>
-                <h3>Mis tecnologias favoritas</h3>
-            </header>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Node.Js</li>
-            </ul>
-        </aside>
-
-        <section>
-            <h2 id="proyectos">Proyectos realizados</h2>
-
-            <article>
-                <header>
-                    <h4>QUIRON 2</h4>
-                </header>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et voluptatem tempore nihil doloremque
-                    eveniet nostrum sunt, corporis vitae impedit distinctio laudantium enim placeat adipisci natus
-                    obcaecati veritatis alias illum commodi!</p>
-                <footer>HTML (DevExtreme), CSS (TailwindCss), TypeScript (Angular), C# (dotnet), SQL (SQL Server), PNPM
-                    (Package Manager), Git (Gitflow)</footer>
-                </footer>
-            </article>
-        </section>
-
-        <section>
-            <h2 id="preguntas">Preguntas Frecuentes</h2>
-            <details>
-                <summary>¿Qué estudios tienes?</summary>
-                <p>Estudie una tecnica como auxiliar en desarrollo de software en <strong>CESDE</strong></p>
-            </details>
-            <details>
-                <summary>¿Cuál es tu experiencia laboral?</summary>
-                <p>Trabaje en <strong>Ekisa SAS</strong> como desarrollador web fullstack</p>
-            </details>
-
-        </section>
-
-        <section>
-            <h2>Formulario de contacto</h2>
-            <form>
-                <fieldset>
-                    <legend>Informacion personal</legend>
-                    <div class="container">
-                        <label>Nombres:
-                            <input type="text" name="name" placeholder="Juan Felipe" required>
-                        </label>
-                        <label>Apellidos:
-                            <input type="text" name="lastname" placeholder="Quintero Gutierrez" required>
-                        </label>
+    <section class="container">
+        <header class="header">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#soy">Quien soy</a>
+                    </li>
+                    <li>
+                        <a href="#experiencia">Experiencia</a>
+                    </li>
+                    <li>
+                        <a href="#proyectos">Proyectos</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="content">
+            <!-- perfil -->
+            <section class="perfil">
+                <article class="descripcion">
+                    <p>
+                        Técnico Laboral como Asistente en Desarrollo de Software con 6 meses de experiencia en
+                        Desarrollo
+                        Web FullStack, desempeñando funciones tales como desarrollo de paginas web e investigación de
+                        frameworks y librerías.
+                    </p>
+                    <div>
+                        <ul class="lenguajes">
+                            <h4>Lenguajes de Programación</h4>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>TypeScript</li>
+                            <li>C#</li>
+                            <li>SQL</li>
+                        </ul>
+                        <ul class="frameworks">
+                            <h4>Frameworks y Librerías</h4>
+                            <li>DevExtreme</li>
+                            <li>TailwindCSS</li>
+                            <li>Angular</li>
+                            <li>dotnet</li>
+                            <li>Microsoft SQL Server</li>
+                        </ul>
                     </div>
-                    <div class="container">
-                        <label>Email:
-                            <input type="email" name="email" placeholder="juan_fquintero@soy.sena.edu.co" required>
-                        </label>
-                        <label>Telefono:
-                            <input type="tel" name="phone" placeholder="3128283889" required pattern="[0-9]{9}">
-                        </label>
+                </article>
+                <article class="info">
+                    <header>
+                        <h1>Juan Felipe Quintero Gutierrez</h1>
+                        <p>FullStack JavaScript</p>
+                    </header>
+                    <div>
+                        <a download href="/images/yo.jpg">
+                            <img class="foto" src="./assets/img/personal/foto.jpg" title="Foto de jfelipeq14"
+                                alt="Una fotografia de Juan Felipe Quintero de tipo documento" width="200">
+                        </a>
                     </div>
-                </fieldset>
-                <fieldset>
-                    <legend>Adicional</legend>
-                    <div class="container">
-                        <label>¿Por qué quieres contactar?
-                            <select name="why" id="why">
-                                <option value="1">Trabajo</option>
-                                <option value="2">Duda</option>
-                                <option value="3">Más información</option>
-                            </select>
-                        </label>
-                        <label>Descripcion:
-                            <input type="text" name="descripcion" id="descripcion">
-                        </label>
-                    </div>
-                </fieldset>
-                <button>Enviar contacto</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        Copyrigth &copy; 2023 - jfelipeq14
-        <a href="mailto:juan_fquintero@soy.sena.edu.co">Enviame un correo</a>
-        <a href="tel:+573128283889">Llamar por telefono</a>
-    </footer>
+                    <footer>
+                        <a href="https://www.linkedin.com/in/juan-felipe-quintero-9461a8245/" target="_blank">
+                            <img src="./assets/img/linkedin-logo.png" alt="logo de linkedin" width="60">
+                        </a>
+                        <a href="https://github.com/jfelipeq14" target="_blank">
+                            <img src="./assets/img/github-logo.png" alt="logo de linkedin" width="60">
+                        </a>
+                        <a href="https://www.youtube.com/@jfelipeq14/featured" target="_blank">
+                            <img src="./assets/img/youtube-logo.png" alt="logo de linkedin" width="60">
+                        </a>
+                    </footer>
+                </article>
+            </section>
+            <!-- proyectos -->
+            <section class="proyectos">
+                <h2>Proyectos</h2>
+                <details>
+                    <summary>Voces de los Abuelos</summary>
+                    <p>Somos un proyecto en el que la oralidad, los mitos y las historias son el corazón de
+                        éste. <strong> <a href="https://voces-de-los-abuelos.web.app/" target="_blank">Saber Más</a>
+                        </strong></p>
+                </details>
+                <details>
+                    <summary>Hermes</summary>
+                    <p>Consiste en el diseño, desarrollo e implantación de un software web para recopilar, almacenar y
+                        gestionar cada una de las necesidades de la agencia de viajes "Happy Trails".<strong> <a
+                                href="https://github.com/jfelipeq14/agencia-de-viajes" target="_blank">Saber Más</a>
+                        </strong></p>
+                </details>
+            </section>
+        </main>
+        <footer class="footer">
+            Copyrigth &copy; 2023 - jfelipeq14
+            <a href="mailto:juan_fquintero@soy.sena.edu.co">Enviame un correo</a>
+            <a href="tel:+573128283889">Llamar por telefono</a>
+        </footer>
+    </section>
+
 </body>
 
 </html>
